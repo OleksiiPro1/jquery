@@ -1,10 +1,10 @@
 $(function(){
-   $(':submit').click(function(e) {
+   $(':submit').click(function(event) {
       $('.text2').attr('disabled','disabled');
-      e.preventDefault();
+      event.preventDefault();
    });
-   $(':reset').click(function(e) {
+   $(':reset').click(function(event) {
       $('.text2').removeAttr('disabled');
-      e.preventDefault();
+      event.preventDefault();
    });
 });
