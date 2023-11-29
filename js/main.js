@@ -1,3 +1,9 @@
+$(function(){
+   $('.icons > div').hide(3000).show(3000);
+
+});
+
+
 
 // $(document).ready(function(){
 //    // code
@@ -13,11 +19,10 @@
 //    // alert(tagP);
 // });
 
-$(function(){
-   var tagP = $('.mainText p').hide(3000);
-   var tagP = $('.mainText p').show(3000);
-   // alert(tagP);
-});
+// $(function(){
+//    var tagP = $('.mainText p').hide(3000, function(){});
+//    var tagP = $('.mainText p').show(3000);   
+// });
 
 // $(function(){
 //    $(':submit').click(function(event) {
