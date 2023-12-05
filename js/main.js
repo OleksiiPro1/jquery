@@ -1,6 +1,5 @@
 $(function(){
    $('.icons > div').hide(3000).show(3000);
-
 });
 
 
