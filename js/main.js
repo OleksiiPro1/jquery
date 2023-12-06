@@ -1,5 +1,6 @@
 $(function(){
-   $('.icons > div').hide(3000).show(3000);
+   $('.mainText').html('<b>New Title</b><h2>Title</h2>');
+   // $('.icons > div').hide(3000).show(3000);
 });
 
 
