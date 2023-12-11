@@ -3,6 +3,10 @@ $(function(){
    // $('.icons > div').hide(3000).show(3000);
 });
 
+// $(function(){
+   
+//     $('.icons > div').hide(3000).show(3000);
+// });
 
 
 // $(document).ready(function(){
