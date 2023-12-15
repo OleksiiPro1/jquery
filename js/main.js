@@ -1,5 +1,5 @@
 $(function(){
-   $('.mainText').fadeOut(2000).fadeIn(3000);
+   $('.mainText').fadeOut(2000).fadeIn(5000);
 });
 
 
