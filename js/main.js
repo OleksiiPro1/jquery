@@ -1,6 +1,6 @@
 
 $(function(){
-  var src = $('.logo img').attr('src');
+  var src = $('.logo img').attr('title', 'test text');
   alert(src);
 });
 
