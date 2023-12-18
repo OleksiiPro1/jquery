@@ -1,6 +1,7 @@
 
 $(function(){
-   $('.mainText').fadeTo(4000, 0.2);
+  var src = $('.logo img').attr('src');
+  alert(src);
 });
 
 
@@ -9,10 +10,14 @@ $(function(){
 
 
 
+// $(function(){
+//    $('.mainText').slideUp(2000).slideDown(2000);
+// });
 
 
-
-
+// $(function(){
+//    $('.mainText').fadeTo(4000, 0.2).fadeTo(4000, 1);
+// });
 
 
 // $(function(){
