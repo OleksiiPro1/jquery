@@ -1,6 +1,23 @@
+
 $(function(){
-   $('.mainText').fadeOut(2000).fadeIn(5000);
+   $('.mainText').fadeTo(4000, 0.2);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(function(){
+//    $('.mainText').fadeOut(2000).fadeIn(5000);
+// });
 
 
 
