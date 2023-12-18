@@ -1,13 +1,22 @@
 
 $(function(){
-  var src = $('.logo img').attr('title', 'test text');
-  alert(src);
-});
+   function changeAttr(element, newAttr, newValue) {
+      var className = "." + element;
+      $(className).attr(newAttr, newValue);
+   }
+
+   changeAttr('logo', 'title', 'new text');
+
+ });
 
 
 
 
 
+//  $(function(){
+//    var src = $('.logo img').attr('title', 'test text');
+//    alert(src);
+//  });
 
 
 // $(function(){
