@@ -1,15 +1,17 @@
 
+// $(function(){
+//    function changeAttr(element, newAttr, newValue) {
+//       var className = "." + element;
+//       $(className).attr(newAttr, newValue);
+//    }
+
+//    changeAttr('logo', 'title', 'new text');
+
+//  });
+
 $(function(){
-   function changeAttr(element, newAttr, newValue) {
-      var className = "." + element;
-      $(className).attr(newAttr, newValue);
-   }
-
-   changeAttr('logo', 'title', 'new text');
-
- });
-
-
+   // test
+});
 
 
 
