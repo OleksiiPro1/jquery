@@ -10,7 +10,7 @@
 //  });
 
 $(function(){
-   alert($('nav menu').css('font-size'));
+   $('nav menu li a').css('color', 'red');
 });
 
 
