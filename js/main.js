@@ -10,7 +10,10 @@
 //  });
 
 $(function(){
-   $('nav menu li a').css('color', 'red');
+   $('nav menu li a').css({
+      'color': 'red',
+      'font-size': '20px'
+   });
 });
 
 
