@@ -12,10 +12,10 @@
 
 $(function(){
 
-$('.mainText').before('<span>11111</span>');
-$('.mainText').after('<span>44444</span>');
-$('.mainText').append('<span>33333</span>');
-$('.mainText').prepend('<span>22222</span>');
+$('.mainText').before('<span>11111before</span>');
+$('.mainText').after('<span>44444after</span>');
+$('.mainText').append('<span>33333append</span>');
+$('.mainText').prepend('<span>22222prepend</span>');
 
 });
 
