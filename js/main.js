@@ -9,12 +9,23 @@
 
 //  });
 
+
 $(function(){
-   $('nav menu li a').css({
-      'color': 'red',
-      'font-size': '20px'
-   });
+
+$('.mainText').before('<span>11111</span>');
+$('.mainText').after('<span>44444</span>');
+$('.mainText').append('<span>33333</span>');
+$('.mainText').prepend('<span>22222</span>');
+
 });
+
+
+// $(function(){
+//    $('nav menu li a').css({
+//       'color': 'red',
+//       'font-size': '20px'
+//    });
+// });
 
 
 
