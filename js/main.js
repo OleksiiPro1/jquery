@@ -10,7 +10,7 @@
 //  });
 
 $(function(){
-   // test
+   alert($('nav menu').css('font-size'));
 });
 
 
