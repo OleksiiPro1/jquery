@@ -17,9 +17,9 @@ $('.mainText').after('<span>44444after</span>');
 $('.mainText').append('<span>33333append</span>');
 $('.mainText').prepend('<span>22222prepend</span>');
 
-$('.logo').mouseup(function() {
-   alert('Works!!!')
-});
+// $('.logo').mouseup(function() {
+//    alert('Works!!!')
+// });
 
 
 $('.arrowDown').click(function() {
