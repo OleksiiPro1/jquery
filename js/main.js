@@ -22,10 +22,10 @@ $('.mainText').prepend('<span>22222prepend</span>');
 // });
 
 
-$('.arrowDown').click(function() {
-   var clone = $(this).clone();
-   $(this).after(clone);
-})
+// $('.arrowDown').click(function() {
+//    var clone = $(this).clone();
+//    $(this).after(clone);
+// })
 
 
 // $('.logo').click(function() {
