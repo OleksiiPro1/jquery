@@ -12,10 +12,15 @@
 
 $(function(){
 
-$('.mainText').before('<span>11111before</span>');
-$('.mainText').after('<span>44444after</span>');
-$('.mainText').append('<span>33333append</span>');
-$('.mainText').prepend('<span>22222prepend</span>');
+$('.arrowDown').click(function(e) {
+    e.preventDefault();
+})
+
+});
+// $('.mainText').before('<span>11111before</span>');
+// $('.mainText').after('<span>44444after</span>');
+// $('.mainText').append('<span>33333append</span>');
+// $('.mainText').prepend('<span>22222prepend</span>');
 
 // $('.logo').mouseup(function() {
 //    alert('Works!!!')
@@ -32,7 +37,7 @@ $('.mainText').prepend('<span>22222prepend</span>');
 //    alert('Works!!!')
 // });
 
-});
+
 
 
 // $(function(){
