@@ -1,3 +1,6 @@
+$(function(){
+
+});
 
 // $(function(){
 //    function changeAttr(element, newAttr, newValue) {
@@ -14,9 +17,13 @@ $(function(){
 
 $('.arrowDown').click(function(e) {
     e.preventDefault();
+    // return false;
 })
 
 });
+
+// $(function(){
+
 // $('.mainText').before('<span>11111before</span>');
 // $('.mainText').after('<span>44444after</span>');
 // $('.mainText').append('<span>33333append</span>');
@@ -37,7 +44,7 @@ $('.arrowDown').click(function(e) {
 //    alert('Works!!!')
 // });
 
-
+// });
 
 
 // $(function(){
